@@ -1,0 +1,498 @@
+﻿.Showing {
+    margin-top:15px;
+margin-left:300px;
+
+}
+
+.English_Movies, .Urdu_Movies, .Hindi_Movies {
+    height: 60px;
+    width: 300px;
+    position:relative;
+    cursor: pointer;
+}
+.Hindi_Movies {
+    margin-left: 40px;
+}
+
+.Urdu_Movies {
+    margin-left: 40px;
+}
+    .English_Movies a, .Urdu_Movies a, .Hindi_Movies a {
+        font-size: 25px;
+        color:mediumpurple;
+    }
+    .English_Movies a
+    {
+        color:white;
+    }
+    .English_Movies {
+        background-color: mediumpurple;
+    }
+    .English_Movies:hover a, .Urdu_Movies:hover a, .Hindi_Movies:hover a {
+        color: white;
+    }
+        .English_Movies:hover {
+            background: forestgreen;
+        }
+    .English_Movies a:hover, .Urdu_Movies a:hover, .Hindi_Movies a:hover {
+                color:white;
+    }
+      .Urdu_Movies:hover, .Hindi_Movies:hover {
+            background-color: mediumpurple;;
+        }
+    .English_Movies a:hover
+    {
+        transform:rotateX(90deg);
+    }
+        .English_Movies::after{
+            content: attr( data-text);
+            position: absolute;
+            left: 0;
+            bottom: -100%;
+            padding: inherit;
+            transform: rotateX(-90deg);
+            transform-origin: top;
+        }
+
+.cards
+{
+    width:22%;
+    height:390px;
+    border-radius:10px;
+    border-color:red;
+    border:2px;
+    margin:20px;
+    margin-top:3px;
+    box-shadow:2px 2px 10px black;
+    display:inline-block;
+    background-color:white;
+}
+ .cards:hover{
+     box-shadow:40px 40px 200px;
+     transition:0.7s;
+ }
+    .image img {
+        width: 100%;
+        height: 260px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+.title
+{
+    text-align:center;
+    margin-top:20px;
+}
+.dis
+{
+    text-align:center;  
+}
+button
+{
+    margin-top:15px;
+    margin-bottom:15px;
+    background-color:white;
+    color:black;
+    border: 1px solid black;
+    padding:10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+button:hover
+{
+    background-color:black;
+    color:white;
+    transition:.5s;
+}
+footer
+{
+    height:150px;
+    width:100%;
+    opacity:0.8;
+    background-color:black;
+    padding-top:7px;
+}
+.middle
+{
+    position:absolute;
+    left:5%;
+    opacity:100;
+}
+.btn1 button
+{
+    background:blue;
+    color:white;
+}
+.btn2 button {
+    background-color:aqua;
+    color:white;
+}
+.btn3 button
+{
+    background:red;
+    color:white;
+}
+.btn4 button
+{
+    background-image: linear-gradient(blue,brown,yellow);
+    color:white;
+}
+.btn5 button
+{
+    background:red;
+    color:white;
+    border:1.5px;
+    border-color:white;
+    border-style:initial;
+}
+.btn1 button, .btn2 button, .btn3 button, .btn4 button, .btn5 button
+{
+    width:45px;
+    height:45px;
+    display:inline-block;
+    box-shadow:0px 5px 15px -15px #00000070;
+    overflow:hidden;
+    margin:4px;
+    border-radius:100%;
+    position:relative;
+    text-align:center;
+    padding:5px;
+}
+.btn1 i,.btn2 i,.btn3 i,.btn4 i,.btn5 i
+{
+    line-height:30px;
+    font-size:20px;
+}
+.btn1 button:hover, .btn2 button:hover, .btn3 button:hover, .btn4 button:hover, .btn5 button:hover {
+    transform: rotateZ(360deg);
+    transition: .4s;
+    border-color: white;
+    border-bottom:1px;
+}
+ h4 {
+
+    margin: 4px;
+    color: white;
+    font-size: 30px;
+    font-weight:bold;
+    font-style: oblique;
+    padding-left:40px;
+}
+ .Explore
+ {
+     float:left;
+     padding-left:450px;
+     margin-right:3px;
+ }
+ .Explore ul li
+ {
+     padding:4px;
+
+ }
+ .Explore ul li .Head4
+ {
+     font-weight:bold;
+     font-size:20px;
+ }
+ .Explore ul li a
+ {
+     color:white;
+     list-style:none;
+     font-size:13px;
+     border-bottom:medium;
+     border-bottom-color:black;
+ }
+ .Explore ul li a:hover
+ {
+     border-bottom-color:white;
+     transition:.3s;
+ }
+.Policy
+{
+    float:left;
+    margin-left:80px;
+    color:white;
+}
+.Policy ul li
+{
+    padding:4px;
+}
+.Policy ul li .Head1
+{
+    font-size:20px;
+    font-weight:bold;
+    list-style:none;
+}
+.Policy ul li a
+{
+    color:white;
+    font-size:13px;
+    list-style:none;
+}
+.stats
+{
+    float:left;
+    margin-left:80px;
+}
+.stats ul li
+{
+    padding:4px;
+}
+.stats ul li .Head2
+{
+    font-size:20px;
+    font-weight:bold;
+}
+.stats ul li a
+{
+    list-style:none;
+    color:white;
+    font-size:13px;
+}
+.Contact_Us
+{
+    float:left;
+    margin-left:80px;
+
+}
+.Contact_Us ul li
+{
+    padding:4px;
+}
+.Contact_Us ul li .Head3
+{
+    font-size:20px;
+    font-weight:bold;
+}
+.Contact_Us ul li a
+{
+    color:white;
+    font-size:13px;
+    list-style:none;
+}
+.End 
+{
+    height: 15px;
+    width: 100%;
+    background-image:linear-gradient(red,indianred);
+    float:left;
+    margin-top:35px;
+    align-content:center;
+}
+.End p
+{
+    font-size:10px;
+    color:black;
+    float:left;
+    display:flex;
+}
+.End:hover{
+
+    background-image:linear-gradient(orange,indianred);
+    transform-origin:left;
+    
+}
+
+/* Media Queury */
+/**
+@media(max-width:1150px) and (min-wwidth:770px) {
+    .Showing {
+        margin-top: 15px;
+        margin-left: 100px;
+    }
+
+    .English_Movies, .Urdu_Movies, .Hindi_Movies {
+        height: 60px;
+        width: 300px;
+        position: relative;
+        cursor: pointer;
+    }
+
+        .English_Movies a, .Urdu_Movies a, .Hindi_Movies a {
+            font-size: 25px;
+            color: mediumpurple;
+        }
+
+        .Urdu_Movies a {
+            color: white;
+        }
+
+    .Urdu_Movies {
+        background-color: mediumpurple;
+    }
+
+        .English_Movies:hover a, .Urdu_Movies:hover a, .Hindi_Movies:hover a {
+            color: white;
+        }
+
+        .Urdu_Movies:hover {
+            background: forestgreen;
+        }
+
+        .English_Movies:hover, .Urdu_Movies:hover, .Hindi_Movies:hover {
+            box-shadow: 2px 2px 5px 4px;
+        }
+
+    .cards {
+        width: 28%;
+        margin: 20px;
+        margin-top: 3px;
+        margin-left: 30px;
+    }
+    .Policy ul li
+    {
+        list-style:none;
+    }
+    .Contact_Us {
+      display:none;
+    }
+    #Hide
+    {
+        display:none;
+    }
+}
+
+
+
+@media(max-width:760px) and (min-width:650px) {
+
+    .menu{
+        display:block;
+        height:35px;
+    }
+    nav ul{
+        flex-direction:column;
+        display:none;
+    }
+
+    }
+    
+    .Slide-container {
+
+        width: 760px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .Image-container {
+        width: 4560px;
+        height: 400px;
+        position: relative;
+        transition: left 1.5s;
+    }
+
+    .Slider-Image {
+        height: 400px;
+        width: 760px;
+        float: left;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .button-container {
+        top: -20px;
+        position: relative;
+    }
+
+    .slider-button {
+        display: inline-block;
+        height: 8px;
+        width: 10px;
+        border-radius: 50px;
+        background-color: transparent;
+        border: solid;
+        border-color: WindowFrame;
+    }
+
+        .slider-button:hover {
+            background-color: white;
+        }
+
+    #Image-1:target ~ .Image-container {
+        left: 0px;
+    }
+
+    #Image-2:target ~ .Image-container {
+        left: -760px;
+    }
+
+    #Image-3:target ~ .Image-container {
+        left: -1520px;
+    }
+
+    #Image-4:target ~ .Image-container {
+        left: -2280px;
+    }
+
+    #Image-5:target ~ .Image-container {
+        left: -3040px;
+    }
+
+    #Image-6:target ~ .Image-container {
+        left: -3800px;
+    }
+    
+
+    .Showing {
+        margin-top: 15px;
+        margin-left: 80px;
+    }
+
+    .English_Movies, .Urdu_Movies, .Hindi_Movies {
+        width: 200px;
+    }
+
+ 
+    .cards {
+        width: 43%;
+        height: 380px;
+        border-radius: 10px;
+        margin: 25px;
+    }
+    #Hide
+    {
+        display:none;
+    }
+
+           
+    footer {
+        height: 280px;
+    }
+    h4 {
+        margin: 4px;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        font-style: oblique;
+        padding-left: 40px;
+    }
+
+    .Explore {
+        float: left;
+        padding-left: 450px;
+        margin-right: 3px;
+
+    }
+
+    .Policy {
+        float: left;
+        margin-left: 100px;
+        color: white;
+        margin-top:40px;
+    }
+
+        .Policy ul li {
+            padding: 4px;
+            list-style: none;
+        }
+
+
+    .stats {
+        float: left;
+        margin-left: 225px;
+        margin-top: 30px;
+    }
+}
+*/

@@ -1,0 +1,286 @@
+﻿<html>
+<head>
+    <title>gridview</title>
+</head>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+
+<link href="css/bootstrap.css" rel="stylesheet" />
+<link href="css/pe-icon-7-stroke.css" rel="stylesheet" />
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/ct-navbar.css" rel="stylesheet" />
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link href="Auditorium.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link href="AnimatedNavbar.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+<body background="01_Popcorn_Things-a-Movie-Theater-Employee-Won’t-Tell-You_713608915-Makistock-760x506.jpg" style="width:100%; height:100px">
+    <!--categories-->
+
+
+    
+   
+    <div class="main2 visible-sm visible-xs">
+        <div class="container">
+            <form method="get" class="navbar-form2" name="search-form" id="search-form" accept-charset="utf-8">
+                <div class="form-group" style="display:inline;">
+                    <div class="input-group">
+                        <span class="input-group-btn" style="padding-bottom: 4px;">
+                            <a href="E:\azeem\Project\AnimatedNavbar.html"> <button class="Home123"> Home </button></a>
+                        </span>
+                    </div>
+                    <!--search-->
+                    <div class="input-group">
+                        <div class="input-group center-block">
+                            <input class="form-control" id="search-input2" name="k" class="search-input" type="text" placeholder="search games" style="									padding: 5px;border-radius: 4px 0px 0px 4px;">
+                        </div>
+                        <div style="right:0px" class="input-group-btn navbar-btn"><button class="btn btn-default btn-nav go">GO</button></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--Grid VIEW-->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Float four columns side by side */
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+
+        /* Remove extra left and right margins, due to padding */
+        .row {
+            margin: 0 -5px;
+        }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+
+        /* Style the counter cards */
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+            height: 350px;
+            width: 250px;
+        }
+
+        .aaa {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .aab {
+            margin-right: 50px
+        }
+
+        .aac {
+        }
+        .Home123
+        {
+            background-color:mediumpurple;
+            float:right;
+            top:-100px;
+            border:1px;
+            border-color:wheat;
+                margin-left:60rem;
+                height:30px;
+                width:100px;
+        }
+    </style>
+
+    <div class="row">
+        <div class="column-lg-3">
+            <div class="card aaa">
+                <img src="E:\azeem\Project\Images\7.jpg" style="width:100%; height:100%;">
+                <p>CINEMA 1</p>
+                <p>MONDAY 5:30PM</p>
+            </div>
+        </div>
+
+        <div class="column-lg-3">
+            <div class="card aab">
+                <img src=".\images\2.jpg" style="width:100%; height:100%;">
+                <p>CINEMA 1</p>
+                <p>MONDAY 6:30PM</p>
+            </div>
+        </div>
+
+        <div class="column-lg-3">
+            <div class="card aab">
+                <img src=".\images\6.jpg" style="width:100%; height:100%;">
+                <p>CINEMA 1</p>
+                <p>MONDAY 5:30PM</p>
+            </div>
+        </div>
+
+        <div class="column-lg-3">
+            <div class="card">
+                <img src=".\images\15.jpg" style="width:100%; height:100%;">
+                <p>CINEMA 1</p>
+                <p>MONDAY 6:30PM</p>
+            </div>
+        </div>
+
+        <div class="row">
+
+
+            <div class="column-lg-3">
+                <div class="card aaa">
+                    <img src=".\images\3.jpg" style="width:100%; height:100%;">
+                    <p>CINEMA 2</p>
+                    <p>MONDAY 3:30PM</p>
+                </div>
+            </div>
+
+
+            <div class="column-lg-3">
+                <div class=".\images\card aab">
+                    <img src=".\images\9.jpg" style="width:100%; height:100%;">
+                    <p>CINEMA 2</p>
+                    <p>MONDAY 5:30PM</p>
+                </div>
+            </div>
+
+            <div class="column-lg-3">
+                <div class="card aab">
+                    <img src=".\images\7.jpg" style="width:100%; height:100%;">
+                    <p>CINEMA 2</p>
+                    <p>MONDAY 10:30PM</p>
+                </div>
+            </div>
+
+            <div class="column-lg-3">
+                <div class="card">
+                    <img src=".\images\12.jpg" style="width:100%; height:100%;">
+                    <p>CINEMA 2</p>
+                    <p>MONDAY 12:00PM</p>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="column-lg-3">
+                    <div class="card aaa">
+                        <img src=".\images\3.jpg" style="width:100%; height:100%;">
+                        <p>CINEMA 3</p>
+                        <p>MONDAY 11:30PM</p>
+                    </div>
+                </div>
+
+                <div class="column-lg-3">
+                    <div class="card aab">
+                        <img src=".\Images\15.jpg" style="width:100%; height:100%;">
+                        <p>CINEMA 3</p>
+                        <p>TUESDAY 7:30PM</p>
+                    </div>
+                </div>
+
+                <div class="column-lg-3">
+                    <div class="card aab">
+                        <img src=".\images\8.jpg" style="width:100%; height:100%;">
+                        <p>CINEMA 3</p>
+                        <p>MONDAY 9:AM</p>
+                    </div>
+                </div>
+
+                <div class="column-lg-3">
+                    <div class="card">
+                        <img src=".\images\13.jpg" style="width:100%; height:100%;">
+                        <p>CINEMA 3</p>
+                        <p>TUESDAY 6:30PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Begins -->
+            <!-- Footer 01-->
+            <footer>
+                <div class="middle">
+                    <h4> Follow Us </h4>
+                    <a class="btn1" href="#">
+                        <button> <i class="fab fa-facebook-f"></i></button>
+                    </a>
+                    <a class="btn2" href="#">
+                        <button> <i class="fab fa-twitter"></i></button>
+                    </a>
+                    <a class="btn3" href="#">
+                        <button> <i class="fab fa-google"></i></button>
+                    </a>
+                    <a class="btn4" href="#">
+                        <button>  <i class="fab fa-instagram"></i></button>
+                    </a>
+                    <a class="btn5" href="#">
+                        <button> <i class="fab fa-youtube"></i></button>
+                    </a>
+                </div>
+
+                <!-- Footer 2-->
+                <div class="Explore">
+                    <ul>
+                        <li><a href="#" class="Head4"> Explore </a></li>
+                        <li> <a href="#">  News </a></li>
+                        <li> <a href="#"> About Us </a></li>
+                        <li> <a href="#">  About Project </a></li>
+                    </ul>
+                </div>
+                <!-- Footer 3-->
+                <div class="Policy">
+                    <ul>
+                        <li><a href="#" class="Head1">Legal</a> </li>
+                        <li> <a href="#">Terms and Condition </a></li>
+                        <li> <a href="#">Privacy Ploicy </a></li>
+                    </ul>
+                </div>
+                <!-- Footer 4-->
+                <div class="stats">
+                    <ul>
+                        <li> <a href="#" class="Head2"> Visit</a> </li>
+                        <li> <a href="#">  No:105, Glass </a></li>
+                        <li> <a href="#">Tower, Clifton Block</a></li>
+                        <li> <a href="#">05, karachi, Pakistan.</a></li>
+                    </ul>
+                </div>
+                <!-- Footer 5-->
+                <div class="Contact_Us">
+                    <ul>
+                        <li><a href="#" class="Head3"> Contact Us </a></li>
+                        <li> <a href="#">  Azeemkalwar51@gmail.com </a></li>
+                        <li> <a href="#">Azeemkalwar51@gmail.com</a></li>
+                        <li> <a href="#">Azeemkalwar51@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="End">
+                    <p> @2019 Primal.web. All Rights Reserved.</p>
+                </div>
+            </footer>
+</body>
+</html>

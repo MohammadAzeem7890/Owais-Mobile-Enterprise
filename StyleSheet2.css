@@ -1,0 +1,58 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+.DvMain
+{
+    display:inline-flex;
+    margin:10px;
+    padding:10px;
+   background:black;
+   color:white;
+}
+h1
+{
+   margin-left:35rem;
+   font-size:55px;
+}
+p {
+    word-spacing: 5px;
+    margin-top: 8px;
+    margin-left: 40px;
+    transform: scaleY(180deg);
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.picture
+{
+    height:300px;
+    width:750px;
+    margin-left:30px;
+    transform:scaleY(360deg);
+    transform-origin:left;
+    transform-style:preserve-3d;
+    transition:1s;
+}
+
+@media (max-width:750px)
+{
+    h1
+    {
+        margin-left:12rem;
+    }
+    .DvMain
+    {
+        background:blue;
+        width:610px;
+
+        display:inline-block;
+        box-sizing:border-box;
+    }
+    .picture
+    {
+        width:530px;
+        align-content:center;
+        padding-top:10px;
+    }
+}

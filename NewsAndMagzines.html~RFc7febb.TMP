@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title> Primal.News </title>
+    <link href="NewsAndMagzines.css" rel=" stylesheet"/>
+</head>
+<body>
+    <header>
+        <div class="menu">
+        </div>
+
+        <nav>
+            <a class="logo" href="#"> Primal.web </a>
+            <input type="checkbox" class="nav_Toggle" />
+            <ul>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-text="Auditorium"> Auditorium </a>
+                </li>
+                <li class="nav-item">
+                    <a href="TheatreShows.html" class="nav-link" data-text="Theatre Shows"> Theatre Shows </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-text="Theatre Speaks"> Theatre Speaks </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-text="Artist Gallery"> Artist Galelry </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-text="Upcoming shows"> Upcoming Shows </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-text="Show Venue"> Show Venue </a>
+                </li>
+                <li class="nav-item">
+                    <a href="AnimatedNavbar.html" class="nav-link" data-text="Home"> Home </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-text="Tickets Info"> Tickets Info </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="Widow">
+        <a><href="#"><img src=".\images\Widow.jpg" /> </a>
+        <h1> Black Widow </h1>
+        <p>
+            The Marvel Upcoming Movie <span> Black Widow </span> Trailor has been uploaded and It <br />
+             best reviews from critiques and fans are desperate to watch <br />
+            he film.<br />
+            Advance Ticket booking is being done from through out the world. This movie will <br />
+            be released in more than 5000 Theatres in USA and will occupy more 10000 theatres<br />
+            through out the world. This film is expected to earn more $1000 million and is <br />
+            expected to cross <span>Joker</span> movie which earned $1100 million Net.<br />
+            <h3> Trailor Rating </h3> * * *
+        </p>
+    </div>
+
+</body>
+</html>

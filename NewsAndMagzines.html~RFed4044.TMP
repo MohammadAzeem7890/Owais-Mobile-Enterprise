@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title> Primal.News </title>
+    <link href="NewsAndMagzines.css" rel=" stylesheet"/>
+</head>
+<body>
+    <header>
+        <div class="menu">
+        </div>
+
+        <nav>
+            <a class="logo" href="#"> Primal.web </a>
+            <input type="checkbox" class="nav_Toggle" />
+            <ul>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-text="Auditorium"> Auditorium </a>
+                </li>
+                <li class="nav-item">
+                    <a href="TheatreShows.html" class="nav-link" data-text="Theatre Shows"> Theatre Shows </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-text="Theatre Speaks"> Theatre Speaks </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-text="Artist Gallery"> Artist Galelry </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-text="Upcoming shows"> Upcoming Shows </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-text="Show Venue"> Show Venue </a>
+                </li>
+                <li class="nav-item">
+                    <a href="AnimatedNavbar.html" class="nav-link" data-text="Home"> Home </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-text="Tickets Info"> Tickets Info </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="widow">
+        <a><href="#"><img src=".\images\Widow.jpg" /> </a>
+        <h1> Black Widow </h1>
+        <p>
+            The Marvel Upcoming Movie <span> Black Widow </span> Trailor has been uploaded and<br />
+            best reviews from critiques, fans are desperate to watch he film.Advance  <br />
+            booking is being done from through out the world. This movie will be  more<br />
+            than 5000 Theatres in USA and will occupy more 10000 theatres through  <br />
+            booking is being done from through out the world. This movie will be  more<br />
+            This film is expected to earn more $1000 million and is expected to cross <br /><span>Joker</span> movie
+            than 5000 Theatres in USA and will occupy more 10000   <br />
+            best reviews from critiques, fans are desperate to watch he film.Advance  <br />
+            movie which earned $1100 million Net.  <button class="Allow"> Read More ... </button><br />
+            <h3> <span>Trailor Rating</span>    * * * * </h3>
+            <h2><span> Release Date </span>  25 dec, 2019 </h2>
+        </p>
+    </div>
+    <div>
+        <p>
+            <h4>What is the Black Widow movie called ? </h4><br />
+            It sets up Natasha Romanoff / Black Widow as a two-timing spy, relying on conversations between Tony Stark and <br />
+            Romanoff in Civil War. After<br />the Avengers footage, the trailer travels to Budapest, which Clint Barton (Hawkeye)<br />
+            has periodically referenced in <br />the Avengers movies as significant to Natasha's history.Aug 24, 2019.
+        </p>
+    </div>
+
+</body>
+</html>

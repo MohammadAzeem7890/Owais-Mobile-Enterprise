@@ -1,0 +1,385 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Roboto",sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 70vh;
+    background-color: #eee;
+    position: relative;
+}
+
+.menu {
+    padding: 1rem 2.5rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #fff;
+    z-index: 999;
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+}
+
+nav {
+    width: 1600px;
+    height: 6rem;
+    line-height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    text-transform: uppercase;
+    background-color: white;
+    color: mediumpurple;
+    box-shadow: 0.5rem 0.1rem rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: mediumpurple;
+    padding: 0 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-align: justify;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    color: mediumpurple;
+    margin-left: 2rem;
+    padding: 0 1rem;
+    display: block;
+    position: relative;
+    transform-style: preserve-3d;
+    transform-origin: top;
+    transition: transform 300ms cubic-bezier(0.55,0.55,0.675,0.10);
+}
+
+    .nav-link:hover {
+        transform: rotateX(90deg);
+    }
+
+.nav-item:last-child .nav-link {
+    margin-right: 0;
+}
+
+.nav-link::after {
+    background-color: white;
+    content: attr( data-text);
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    padding: inherit;
+    color: green;
+    transform: rotateX(-90deg);
+    transform-origin: top;
+}
+
+.nav_Toggle {
+    display: none;
+}
+
+.nav-item:nth-child(odd) {
+    animation: up 1s alternate-reverse;
+}
+
+.nav-item:nth-child(even) {
+    animation: down 1s normal;
+}
+
+@keyframes up {
+    from {
+        transform: translateY(-100);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.contact-form{
+	width:85%;
+	max-width:600px;
+	background:#f1f1f1;
+	position:absolute;
+	top:70%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	padding:30px 40px;
+	box-sizing:border-box;
+	border-radius:8px;
+	text-align:center;
+	box-shadow: 0 0 20px #CCC;
+
+}
+  
+.contact-form h1{
+	margin-top:0;
+	font-weight:200;
+}
+
+.txtb {
+	border:1px solid #CCC;
+	margin:8px 0;
+	padding:12px 18px;
+	border-radius:8px;
+}
+
+.txtb label{
+	display:block;
+	text-align: left;
+	color:#333;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.txt input,.txtb textarea{
+	width:100%;
+	border: none;
+	background: none;
+	outline: none;
+	font-size:18px;
+	margin-top:6px;
+}
+
+.btn {
+	display: inline-block;
+	background:#9b59b6;
+	padding:14px 0;
+	color: #FFF;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top:8px;
+	width: 100%;
+	
+}
+
+footer {
+    height: 156px;
+    width: 100%;
+    opacity: 0.8;
+    background-color: black;
+    padding-top: 20px;
+    margin-top:100px;
+}
+
+.middle {
+    position: absolute;
+    left: 5%;
+    opacity: 100;
+}
+
+.btn1 button {
+    background: blue;
+    color: white;
+}
+
+.btn2 button {
+    background-color: aqua;
+    color: white;
+}
+
+.btn3 button {
+    background: red;
+    color: white;
+}
+
+.btn4 button {
+    background-image: linear-gradient(blue,brown,yellow);
+    color: white;
+}
+
+.btn5 button {
+    background: red;
+    color: white;
+    border: 1.5px;
+    border-color: white;
+    border-style: initial;
+}
+
+.btn1 button, .btn2 button, .btn3 button, .btn4 button, .btn5 button {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    box-shadow: 0px 5px 15px -15px #00000070;
+    overflow: hidden;
+    margin: 4px;
+    border-radius: 100%;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+}
+
+.btn1 i, .btn2 i, .btn3 i, .btn4 i, .btn5 i {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.btn1 button:hover, .btn2 button:hover, .btn3 button:hover, .btn4 button:hover, .btn5 button:hover {
+    transform: rotateZ(360deg);
+    transition: .4s;
+    border-color: white;
+    border-bottom: 1px;
+}
+
+h4 {
+    margin: 4px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    padding-left: 40px;
+}
+
+.Explore {
+    float: left;
+    padding-left: 450px;
+    margin-right: 3px;
+}
+
+    .Explore ul li {
+        padding: 4px;
+    }
+
+        .Explore ul li .Head4 {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .Explore ul li a {
+            color: white;
+            list-style: none;
+            font-size: 13px;
+            border-bottom: medium;
+            border-bottom-color: black;
+        }
+
+            .Explore ul li a:hover {
+                border-bottom-color: white;
+                transition: .3s;
+            }
+
+.Policy {
+    float: left;
+    margin-left: 80px;
+    color: white;
+}
+
+    .Policy ul li {
+        padding: 4px;
+    }
+
+        .Policy ul li .Head1 {
+            font-size: 20px;
+            font-weight: bold;
+            list-style: none;
+        }
+
+        .Policy ul li a {
+            color: white;
+            font-size: 13px;
+            list-style: none;
+        }
+
+.stats {
+    float: left;
+    margin-left: 80px;
+}
+
+    .stats ul li {
+        padding: 4px;
+    }
+
+        .stats ul li .Head2 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .stats ul li a {
+            list-style: none;
+            color: white;
+            font-size: 13px;
+        }
+
+.Contact_Us {
+    float: left;
+    margin-left: 80px;
+}
+
+    .Contact_Us ul li {
+        padding: 4px;
+    }
+
+        .Contact_Us ul li .Head3 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .Contact_Us ul li a {
+            color: white;
+            font-size: 13px;
+            list-style: none;
+        }
+
+.End {
+    height: 15px;
+    width: 100%;
+    background-image: linear-gradient(red,indianred);
+    float: left;
+    margin-top: 35px;
+    align-content: center;
+}
+
+    .End p {
+        font-size: 10px;
+        color: black;
+        float: left;
+        display: flex;
+    }
+
+    .End:hover {
+        background-image: linear-gradient(orange,indianred);
+        transform-origin: left;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
